@@ -1,12 +1,13 @@
 import React from "react";
 import Menu from "./Menu";
 import Favorite from "./Favorite";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Menu something="whatever" />
-      <hr />
+
       <Favorite />
     </div>
   );
